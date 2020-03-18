@@ -4,7 +4,7 @@
 #
 Name     : perl-Parse-EDID
 Version  : 1.0.7
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/G/GR/GROUSSE/Parse-EDID-1.0.7.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GR/GROUSSE/Parse-EDID-1.0.7.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libparse-edid-perl/libparse-edid-perl_1.0.6-2.debian.tar.xz
@@ -107,4 +107,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Parse/EDID.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Parse/EDID.pm
